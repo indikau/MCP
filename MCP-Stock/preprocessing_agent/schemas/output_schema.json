@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "description": "Cleaned and normalized stock data",
+  "properties": {
+    "symbol": { "type": "string" },
+    "date": { "type": "string" },
+    "daily_return": { "type": "number" },
+    "normalized_volume": { "type": "number" }
+  },
+  "required": ["symbol", "date", "daily_return", "normalized_volume"]
+}

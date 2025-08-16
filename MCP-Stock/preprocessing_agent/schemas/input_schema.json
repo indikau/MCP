@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "description": "Price data per symbol",
+  "additionalProperties": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "date": { "type": "string" },
+        "close": { "type": "number" },
+        "volume": { "type": "number" }
+      },
+      "required": ["date", "close", "volume"]
+    }
+  }
+}
